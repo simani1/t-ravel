@@ -26,7 +26,7 @@
         		<p class="footer_content">
 	        		500 South Towne Street<br> 
 	        		San Francisco, CA 90675<br>
-	        		Tel: (415) 396-7645 Fax: (415) 396-7646<br>
+	        		Tel: (415) 396-7645<br>
 	        		Email: Travelsp@t-ravel.com
         		</p>
         	</div>
