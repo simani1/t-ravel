@@ -1,0 +1,65 @@
+/**
+  Theme Name: Basic Theme
+  Version: 1
+  Author: Ani Simonian
+*/
+
+body {
+	background: url('images/convertible_drive_sunset.jpg') no-repeat;
+	background-size: 100%;
+	margin-bottom: 120px;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+.nav {
+	color: white;
+	float: right;
+	margin-top: 100px;
+}
+
+.navItem {
+	display: inline-block;
+	margin-right: 25px;
+	text-shadow: 2px 2px 2px black;
+}
+
+.navItem:hover {
+	color: black;
+	cursor: pointer;
+	text-shadow: 2px 2px 2px white;
+}
+
+.logo {
+	margin-top: 50px;
+	content: url('images/t_ravel_logo_dropshadow.png') no-repeat;
+}
+
+.footer_content {
+	font-size: 10px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 120px;
+  background-color: black;
+  color: white;
+  font-size: 12px;
+}
+
+.footer_header {
+	color: white;
+	font-size: 22px;
+	text-align: center;
+}
+
+.footer_header_location {
+	color: white;
+	font-size: 22px;
+}
+
+.footer_copyright {
+	margin-left: 50px;
+}	
