@@ -11,7 +11,7 @@
 	<?php wp_head();?>
 </head>
 <body>
-  <div class="container">
+  <div class="container-fluid">
 
 	<!-- display logo here -->
 	<div class="col-xs-6">
@@ -30,5 +30,4 @@
 			</ul>
   		</div>
 	</div>
-
   	

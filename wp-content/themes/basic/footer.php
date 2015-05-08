@@ -5,7 +5,7 @@
 </div><!-- x content -->
 
 <footer class="footer">
-	<div class="container">
+	<div class="container-fluid">
         <div class="col-xs-12">
         	<div class="col-xs-3">
         		<p class="footer_header_location">Location</p>

@@ -11,6 +11,12 @@ body {
 	font-family: 'Merriweather Sans', sans-serif;
 }
 
+.container-fluid {
+	padding-left: 0;
+	padding-right: 0;
+
+}
+
 .nav {
 	color: white;
 	float: right;
@@ -51,15 +57,73 @@ body {
 
 .footer_header {
 	color: white;
-	font-size: 22px;
+	font-size: 18px;
 	text-align: center;
 }
 
 .footer_header_location {
 	color: white;
-	font-size: 22px;
+	font-size: 18px;
 }
 
 .footer_copyright {
 	margin-left: 50px;
 }	
+
+.buy_prints_container {
+	background-color: white;
+	margin-top: 200px;
+}
+
+p.woocommerce-result-count {
+	display: none;
+}
+
+.buy_prints_container .page-title {
+	display: none;
+}
+
+.buy_prints_container .products {
+	margin-top: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.buy_prints_container .products li {
+	list-style: none;
+}
+
+ul.products li.product {
+	width: 33.333333333%;
+	float: left;
+	margin-top: 10px;
+}
+
+ul.products li.product .add_to_cart_button {
+	margin-left: 180px;
+}
+
+ul.products {
+	float: left;
+}
+
+.woocommerce-pagination {
+	display: inline-block;
+	margin-top: 40px;
+	margin-left: 40px;
+	float: left;
+}
+
+.woocommerce-pagination ul {
+	list-style: none;
+}
+
+.woocommerce-pagination li {
+	float: left;
+	margin-right: 10px;
+}
+
+.woocommerce-ordering {
+	display: none;
+}
+
