@@ -127,3 +127,92 @@ ul.products {
 	display: none;
 }
 
+.aboutTitle {
+	margin-top: 60px;
+	color: white;
+	margin-left: 33.333px;
+}
+
+.aboutContent {
+	background-color: white;
+	height: 250px;
+	opacity: 0.8;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.cartTitle {
+	margin-top: 60px;
+	color: white;
+	margin-left: 33.333px;
+}
+
+.cartContent {
+	background-color: white;
+	height: 100%;
+	opacity: 1.0;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+/*The code below will simply setup the price-title area to be hidden and have a background. Please note that uou will have to change the background and height to match your website color scheme and product height  but first load it as and then adjust                                                                                      
+*/
+ 
+.products .product .product-details {
+	position: relative;
+	background: rgba(179, 186, 179, 0.70);
+	left: 0;
+	width: 311px;
+	margin-top: -160px;
+	top: -40px;
+	bottom: 0;
+	color: #f7f7f7;
+	padding: 1.618em;
+	text-align: left;
+   	opacity: 0;
+   	height: 160px;
+   	filter: alpha(opacity=@opacity * 100);	
+	-webkit-transition: all ease 0.4s;
+	-moz-transition: all ease 0.4s;
+   	-ms-transition: all ease 0.4s;
+    	-o-transition: all ease 0.4s;
+    	transition: all ease 0.4s;
+  }
+
+  ul.products li.product .add_to_cart_button {
+  	visibility: hidden;
+  	position: relative;
+	left: 0;
+	width: 311px;
+	margin-top: -160px;
+	top: -70px;
+	bottom: 0;
+  }
+
+ 
+/* Show the that was setup above when the user hovers*/
+ 
+  ul.products li.product:hover .product-details {
+	filter: alpha(opacity=@opacity * 100);
+	opacity: 1;
+  }
+ 
+  ul.products li.product a img:hover {
+	opacity: 0.9;
+  }
+
+.add_to_cart_button, .add_to_cart_button:link {
+	color: black;
+}
+
+.modal-body {
+	padding: 0;
+}
+
+.productPrice {
+	text-align: center;
+}
+
+.excerpt {
+	display: none;
+}
