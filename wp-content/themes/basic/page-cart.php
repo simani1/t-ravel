@@ -18,3 +18,5 @@ Template Name: Cart Page
     <p>Sorry, no pages matched your criteria.</p>
 <?php endif; ?>
 </div>
+
+<?php get_footer();?>

@@ -10,6 +10,60 @@ body {
 	margin-bottom: 120px;
 	font-family: 'Merriweather Sans', sans-serif;
 }
+.woocommerce .woocommerce-info {
+	border-top-color: black;
+}
+.homepageText {
+	color: white;
+	text-align:center;
+	width: 450px;
+	padding-left: 30px;
+}
+.fineArtText {
+	padding-left: 80px;
+	font-size: 24px;
+}
+.fineArtBody {
+	width: 560px;
+	text-align: center;
+	line-height: 24px;
+}
+
+.homeSearchArea {
+	padding-top: 200px;
+	text-align: center;
+}
+
+.homeSearchField {
+	width: 300px;
+	opacity: 0.8;
+	border-radius: 25px;
+	padding: 10px 10px;
+	line-height: 14px;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    black;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    black;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    black;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    black;
+}
+
+.wooTitle {
+	color: white;
+	font-size: 30px;
+	float: left;
+	padding-top: 180px;
+	margin-left: 30px;
+}
 
 .container-fluid {
 	padding-left: 0;
@@ -23,10 +77,24 @@ body {
 	margin-top: 100px;
 }
 
-.navItem {
+.searchArea {
+	margin-left: 160px;
+	color: black;
+}
+
+.searchField {
+	background: transparent;
+	border-color: white;
+	border: 1px solid white;
+	border-radius: 25px;
+	color: black;	
+}
+
+.navItem,.navItem a {
 	display: inline-block;
 	margin-right: 25px;
 	text-shadow: 2px 2px 2px black;
+	color: white;
 }
 
 .navItem:hover {
@@ -45,7 +113,7 @@ body {
 }
 
 .footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
@@ -72,7 +140,7 @@ body {
 
 .buy_prints_container {
 	background-color: white;
-	margin-top: 200px;
+	/*margin-top: 200px;*/
 }
 
 p.woocommerce-result-count {
@@ -111,7 +179,8 @@ ul.products {
 	display: inline-block;
 	margin-top: 40px;
 	margin-left: 40px;
-	float: left;
+	float: right;
+	margin-right: 140px;
 }
 
 .woocommerce-pagination ul {
@@ -136,7 +205,7 @@ ul.products {
 .aboutContent {
 	background-color: white;
 	height: 250px;
-	opacity: 0.8;
+	opacity: 0.9;
 	margin-left: 0;
 	margin-right: 0;
 }
@@ -215,4 +284,12 @@ ul.products {
 
 .excerpt {
 	display: none;
+}
+
+.aboutImage,.aboutText, .contactText, .contactImage {
+	padding-top: 20px;
+}
+
+.contactAddress {
+	padding-left: 0;
 }

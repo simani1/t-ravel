@@ -27,19 +27,19 @@
 	        		500 South Towne Street<br> 
 	        		San Francisco, CA 90675<br>
 	        		Tel: (415) 396-7645<br>
-	        		Email: Travelsp@t-ravel.com
+	        		Email: <a href="mailto:Travelsp@t-ravel.com">Travelsp@t-ravel.com</a>
         		</p>
         	</div>
         	<div class="col-xs-3">
         		<p class="footer_content footer_social_logos">
         			<span class="col-xs-4 footer_social_logo">
-        				<img src="<?php bloginfo('template_directory'); ?>/images/footer_fb_logo.png">
+        				<a href="http://www.facebook.com" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/images/footer_fb_logo.png"></a>
         			</span>
         			<span class="col-xs-4 footer_social_logo">
-        				<img src="<?php bloginfo('template_directory'); ?>/images/footer_twitter_logo.png">
+        				<a href="http://www.twitter.com" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/images/footer_twitter_logo.png"></a>
         			</span>
         			<span class="col-xs-4 footer_social_logo">
-        				<img src="<?php bloginfo('template_directory'); ?>/images/footer_google_logo.png">
+        				<a href="http://play.google.com/" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/images/footer_google_logo.png"></a>
         			</span>
         		</p>
         	</div>

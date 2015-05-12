@@ -39,18 +39,23 @@
 
 	<!-- display logo here -->
 	<div class="col-xs-6">
-		<div class="logo"></div>
+		<a href="<?php echo get_option('home'); ?>"><div class="logo"></div></a>
 	</div>
 
   	<!-- display nav bar here -->
 	<div class="col-xs-6">
-		<div class="nav">
+		<div class="nav col-xs-12">
+			<?php $actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+			      $actual_link = rtrim($actual_link, '/');
+			?>
+			
+			<?php if (strcmp($actual_link, get_option('home')) != 0) { ?><div class="searchArea"><form action="<?php bloginfo('url'); ?>/search" method="get"><input type="text" name="query" class="searchField" /><a style="color: white;padding-left:15px" href="#" onclick="this.submit()">Search</a></form></div><?php }?>
 			<ul>
-				<li class="navItem">Home</li>
-				<li class="navItem">Buy Prints</li>
-				<li class="navItem">About</li>
-				<li class="navItem">Contact</li>
-				<li class="navItem">Cart</li>
+				<a href="<?php echo get_option('home'); ?>"><li class="navItem">Home</li></a>
+				<a href="<?php echo get_option('home'); ?>/buy-prints"><li class="navItem">Buy Prints</li></a>
+				<a href="<?php echo get_option('home'); ?>/about"><li class="navItem">About</li></a>
+				<a href="<?php echo get_option('home'); ?>/contact"><li class="navItem">Contact</li></a>
+				<a href="<?php echo get_option('home'); ?>/cart"><li class="navItem">Cart</li></a>
 			</ul>
   		</div>
 	</div>

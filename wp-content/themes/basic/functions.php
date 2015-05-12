@@ -25,6 +25,7 @@ function change_columns() {
     }
 }
 
+
 /* Show pagination on the top of shop page */
 //add_action( 'woocommerce_before_shop_loop', 'woocommerce_pagination', 10 );
 
